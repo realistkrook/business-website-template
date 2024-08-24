@@ -14,13 +14,13 @@ const Hero = () => {
           />
           <p className={`${styles.paragraph} ml-2`}>
             <span className='text-white'>20%</span> Discount For {" "}
-            <span className='text-white'>1 Month</span> Account
+            <span className='text-white'>first</span> month
           </p>
         </div>
         <div className='flex flex-row justify-between items-center w-full'>
           <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]'>
           Empowering the next<br className='sm:block hidden'/> {" "}
-            <span className='text-gradient'>Generation</span> {" "}
+            <span className='text-gradient'>generation</span> {" "}
           </h1>
           <div className='ss:flex hidden md:mr-4 mr-0'>
             <GetStarted/>
@@ -30,8 +30,8 @@ const Hero = () => {
           of businesses.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Our team of unique specialists can help you achieve your business goals by providing you with stunning, innovative and creative websites to further promote your business.
-        realistsTech is a leading design agency that creates innovative and effective design solutions to help businesses stand out in the digital world, as well as manage all your web development needs, such as DNS records, hosting, and domain registration.
+        
+        realistsTech is a  design agency that creates innovative and effective design solutions to help businesses stand out in the digital world, as well as manage all your web development needs, such as DNS records, hosting, and domain registration.
         </p>
       </div>
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
