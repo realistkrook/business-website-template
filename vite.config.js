@@ -5,4 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/realisttech/', // Replace 'your-repo-name' with the actual repository name
   plugins: [react()],
+  build: {
+    outDir: 'dist'} // This is the default value
 })
