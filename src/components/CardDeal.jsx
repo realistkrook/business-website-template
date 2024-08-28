@@ -7,12 +7,12 @@ const CardDeal = () => {
   return (
     <section className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>Find a better card deal <br className='sm:block hidden'/>in few easy steps.</h2>
+        <h2 className={styles.heading2}>Why choose us?
+<br className='sm:block hidden'/></h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Arcu tortor,
-          purus in mattis at sed integer faucibus.
-          Aliquet quis aliquet eget mauris tortor.ç 
-          Aliquet ultrices ac, ametau.
+        Unlike other web design companies, we believe in quality web design without the hefty fee. 
+        While other companies charge thousands of dollars, our fees are fractional compared to theirs, while still offering quality and service. This is why you should choose realistsTech.
+
         </p>
         <Button styles='mt-10'/>
       </div>
