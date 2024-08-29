@@ -6,7 +6,6 @@
   "homepage": "realists.tech",
   "scripts": {
     "dev": "vite",
-    "clean": "rimraf dist",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "copy CNAME dist\\",
