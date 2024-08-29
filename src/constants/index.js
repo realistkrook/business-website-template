@@ -98,7 +98,7 @@ export const stats = [
   },
   {
     id: "stats-3",
-    title: "Transaction",
+    title: "website can increase company's credibility",
     value: "78%",
   },
 ];

@@ -11,7 +11,7 @@ const CardDeal = () => {
 <br className='sm:block hidden'/></h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Unlike other web design companies, we believe in quality web design without the hefty fee. 
-        While other companies charge thousands of dollars, our fees are fractional compared to theirs, while still offering quality and service. This is why you should choose realistsTech.
+        While other companies charge thousands of dollars, our fees are fractional compared to theirs, while still offering quality and service.
 
         </p>
         <Button styles='mt-10'/>
