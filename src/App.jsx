@@ -3,13 +3,13 @@ import {
   Billing, 
   Business, 
   CardDeal, 
-  Clients, 
+  /*Clients,*/
   CTA, 
   Footer, 
   Hero, 
   Navbar, 
   Stats, 
-  Testimonials 
+  /*Testimonials*/
 } from './components'
 import styles from './style'
 
@@ -32,8 +32,8 @@ const App = () => {
           <Business/>
           <Billing/>
           <CardDeal/>
-          <Testimonials/>
-          <Clients/>
+          {/*<Testimonials/>*/}
+          {/*<Clients/>*/}
           <CTA/>
           <Footer/>     
         </div>

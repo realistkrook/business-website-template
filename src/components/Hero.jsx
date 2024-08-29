@@ -31,7 +31,7 @@ const Hero = () => {
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         
-        realistsTech is a  design agency that creates innovative and effective design solutions to help businesses stand out in the digital world, as well as manage all your web development needs, such as DNS records, hosting, and domain registration.
+        realistsTech is a  design agency that creates innovative and effective design solutions to help businesses stand out in the digital world, as well as manage all your web development needs, such as hosting, and domain registration.
         </p>
       </div>
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
