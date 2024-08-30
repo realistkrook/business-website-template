@@ -2,7 +2,7 @@
 var config = {
     apiKey: "AIzaSyDNvvrOQnQi8yeN9u8fSlfdVVRlrTLp9ro",
     authDomain: "realiststech.firebaseapp.com",
-    databaseURL: "https://realiststech.firebaseio.com",
+    databaseURL: "https://realiststech-default-rtdb.firebaseio.com",
     projectId: "realiststech",
     storageBucket: "realiststech.appspot.com",
     messagingSenderId: "497363134908"
