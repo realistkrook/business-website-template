@@ -1,5 +1,4 @@
-import React from 'react'
-import firebaseApp from './firebaseConfig';
+import React from 'react';
 import { 
   Billing, 
   Business, 
@@ -11,36 +10,38 @@ import {
   Navbar, 
   Stats, 
   /*Testimonials*/
-} from './components'
-import styles from './style'
+} from './components';
+import styles from './style';
+import { app, db, auth } from './firebaseConfig'; // Import Firebase configuration
 
 const App = () => {
   return (
     <div className='bg-primary w-full overflow-hidden'>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
-          <Navbar/>
+          <Navbar />
         </div>
       </div>
+
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <Hero/>      
+          <Hero />
         </div>
       </div>
+
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <Stats/>
-          <Business/>
-          <Billing/>
-          <CardDeal/>
-          {/*<Testimonials/>*/}
-          {/*<Clients/>*/}
-          <CTA/>
-          <Footer/>     
+          <Stats />
+          <Business />
+          <Billing />
+          <CardDeal />
+          {/* <Testimonials /> */}
+          <CTA />
+          <Footer />
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
