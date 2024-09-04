@@ -7,4 +7,12 @@ export default defineConfig({
   build: {
     outDir: 'dist',
   },
+  resolve: {
+    extensions: ['.js', '.jsx'], // Ensure Vite resolves .jsx files
+  },
+  server: {
+    mimeTypes: {
+      'application/javascript': ['js', 'jsx'],
+    },
+  },
 });
