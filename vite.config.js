@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/',
+  base: '/', // Update this if your app is served from a subdirectory
   plugins: [react()],
   build: {
     outDir: 'dist',
